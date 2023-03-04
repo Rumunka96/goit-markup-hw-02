@@ -1,8 +1,80 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
-    background: #E5E5E5;
+    background: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+header {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #E7E9FC;
 }
 button {
     cursor: pointer;
+    border: none;
+    line-height: 24px;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.button-filter {
+    margin: 96px 0 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button-filter > li > button {
+    color: #4D5AE5;
+    background: #F4F4FD;
+    padding: 12px 24px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    margin-right: 24px;
+}
+.button-filter > li > button:hover,
+.button-filter> li >button:focus {
+    background: #404BBF;
+    color: #fff;
+}
+p {
+    color: #434455;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.work-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.work-list > li {
+    border: 1px solid #E7E9FC;
+    margin-right: 24px;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+}
+.work-list > li > img {
+    margin-bottom: 32px;
+}
+.work-list > li > p {
+    margin: 0;
+    padding-left: 16px;
+}
+.work-list > li h3 {
+    margin: 0 0 8px 0;
+    padding-left: 16px;
 }
