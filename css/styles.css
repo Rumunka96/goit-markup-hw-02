@@ -20,9 +20,22 @@ body {
     text-transform: uppercase;
     color: var(--s-logotype);
 }
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
 .link {
     text-decoration: none;
     color: var(--s-studio);
+}
+.list {
+    list-style: none;
 }
 header {
     width: 100%;
