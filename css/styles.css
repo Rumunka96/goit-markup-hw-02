@@ -5,6 +5,25 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+:root {
+    --s-logotype: #4d5ae5;
+}
+:studio {
+    --s-studio: #2e2f42;
+}
+.site-logotype {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--s-logotype);
+}
+.link {
+    text-decoration: none;
+    color: var(--s-studio);
+}
 header {
     width: 100%;
     display: flex;
