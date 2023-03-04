@@ -23,7 +23,7 @@ body {
 .address-menu {
     font-style: normal;
 }
-.email {
+.address-link {
     letter-spacing: 0.02em;
 }
 .menu-link {
@@ -65,14 +65,14 @@ a {
     text-decoration: none;
     color: inherit;
 }
-.button-filter {
+.button-filter-list {
     margin: 96px 0 72px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.button-filter > li > button {
+.button-filter-list > li > .btn-filter {
     color: #4D5AE5;
     background: #F4F4FD;
     padding: 12px 24px;
@@ -81,9 +81,15 @@ a {
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     margin-right: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
-.button-filter > li > button:hover,
-.button-filter> li >button:focus {
+.button-filter > li > .btn-filter:hover,
+.button-filter> li > .btn-filter:focus {
     background: #404BBF;
     color: #fff;
 }
