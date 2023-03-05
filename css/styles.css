@@ -56,6 +56,9 @@ header {
     display: flex;
     border-bottom: 1px solid #E7E9FC;
 }
+.footer {
+    background-color: var(--s-menu-link);
+}
 button {
     cursor: pointer;
     border: none;
@@ -93,6 +96,7 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--s-menu-link);
 }
 .main-p {
     letter-spacing: 0.02em;
@@ -103,6 +107,7 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--s-menu-link);
 }
 /* Index page css end*/
 
@@ -143,6 +148,7 @@ p {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--s-menu-link);
 }
 .work-list {
     display: flex;
