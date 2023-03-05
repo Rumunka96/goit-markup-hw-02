@@ -17,6 +17,12 @@ body {
     text-transform: uppercase;
     color: var(--s-logotype);
 }
+.studio {
+    --s-studio: #2e2f42;
+}
+.studio {
+    color: var(--s-studio);
+}
 .address-menu {
     font-style: normal;
 }
@@ -24,10 +30,14 @@ body {
     letter-spacing: 0.02em;
 }
 .menu-link {
+    --s-menu-link: #2e2f42;
+}
+.menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--s-menu-link);
 }
 .menu-link:hover,  
 .menu-link:focus,
