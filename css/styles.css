@@ -96,9 +96,11 @@ a {
 p {
     color: #434455;
 }
-h3 {
+.work-list-title {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .work-list {
     display: flex;
@@ -107,20 +109,25 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
 }
-.work-list > li {
+.work-list > a {
     border: 1px solid #E7E9FC;
     margin-right: 24px;
     margin-bottom: 48px;
     padding-bottom: 32px;
 }
-.work-list > li > img {
+.work-list > li > a > img {
     margin-bottom: 32px;
 }
-.work-list > li > p {
+.work-list > li > a > .work-list-p {
     margin: 0;
     padding-left: 16px;
 }
-.work-list > li h3 {
+.work-list > li > a > .work-list-title {
     margin: 0 0 8px 0;
     padding-left: 16px;
+}
+.work-list-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
