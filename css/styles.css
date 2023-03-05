@@ -37,7 +37,7 @@ body {
 }
 .link {
     text-decoration: none;
-    color: var(--s-studio);
+    /* color: var(--s-studio); */
 }
 .list {
     list-style: none;
