@@ -5,11 +5,8 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
-:root {
+.site-logotype {
     --s-logotype: #4d5ae5;
-}
-:studio {
-    --s-studio: #2e2f42;
 }
 .site-logotype {
     font-family: "Raleway", sans-serif;
