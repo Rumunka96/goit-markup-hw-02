@@ -57,7 +57,13 @@ header {
     border-bottom: 1px solid #E7E9FC;
 }
 .footer {
-    background-color: var(--s-menu-link);
+    --footer-color: #2e2f42;
+}
+.footer {
+    background-color: var(--footer-color);
+}
+.footer > a > span {
+    color: #f4f4fd;
 }
 button {
     cursor: pointer;
@@ -92,11 +98,14 @@ a {
     color: #ffffff;
 }
 .main-h {
+    --s-main-h: #2e2f42;
+}
+.main-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--s-menu-link);
+    color: var(--s-main-h);
 }
 .main-p {
     letter-spacing: 0.02em;
@@ -107,7 +116,7 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--s-menu-link);
+    color: var(--s-main-h);
 }
 /* Index page css end*/
 
@@ -144,11 +153,14 @@ p {
     color: #434455;
 }
 .work-list-title {
+    --s-title: #2e2f42;
+}
+.work-list-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--s-menu-link);
+    color: var(--s-title);
 }
 .work-list {
     display: flex;
