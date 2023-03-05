@@ -65,6 +65,42 @@ a {
     text-decoration: none;
     color: inherit;
 }
+/* Index page */
+.top-banner {
+    background: #2E2F42;
+}
+.banner-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.banner-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.main-title-h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.main-p {
+    letter-spacing: 0.02em;
+}
+.main-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+/* Index page css end*/
+
+/* Profile page */
 .button-filter-list {
     margin: 96px 0 72px;
     display: flex;
@@ -131,3 +167,4 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* Profile page css end */
