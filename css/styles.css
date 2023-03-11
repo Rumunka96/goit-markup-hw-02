@@ -52,6 +52,10 @@ body {
 .footer > a > span {
     color: #f4f4fd;
 }
+.footer > p {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
 button {
     cursor: pointer;
     border: none;
@@ -70,6 +74,7 @@ a {
 /* Index page */
 .top-banner {
     background: #2E2F42;
+    text-align: center;
 }
 .banner-title {
     font-size: 56px;
@@ -83,6 +88,8 @@ a {
     font-weight: 500;
     letter-spacing: 0.04em;
     color: #ffffff;
+    background: var(--second-color);
+    padding: 16px 32px;
 }
 .main-h {
     font-weight: 500;
@@ -101,6 +108,13 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-font-color);
+}
+.our-team {
+    text-align: center;
+    background: #F4F4FD;
+}
+.our-team > ul > li {
+    background: #fff;
 }
 /* Index page css end*/
 
@@ -128,8 +142,8 @@ a {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button-filter > li > .btn-filter:hover,
-.button-filter> li > .btn-filter:focus {
+.button-filter-list > li > .btn-filter:hover,
+.button-filter-list > li > .btn-filter:focus {
     background: #404BBF;
     color: #fff;
 }
