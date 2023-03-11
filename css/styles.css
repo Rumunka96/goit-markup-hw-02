@@ -1,10 +1,11 @@
 :root {
     --main-font-color: #2e2f42;
     --second-color: #4d5ae5;
+    --body-font-color: #434455;
 }
 body {
     font-family: 'Roboto', sans-serif;
-    /* color: #434455; */
+    color: var(--body-font-color);
     background: #fff;
     font-size: 16px;
     line-height: 1.5;
@@ -32,7 +33,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-font-color);
+    color: var(--body-font-color);
 }
 .menu-link:hover,  
 .menu-link:focus,
