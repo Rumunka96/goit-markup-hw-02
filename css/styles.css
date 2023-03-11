@@ -108,6 +108,7 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-font-color);
+    width: 100%;
 }
 .our-team {
     background: #F4F4FD;
